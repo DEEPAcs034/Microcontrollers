@@ -1,7 +1,7 @@
 ;Write an ARM assembly language program to calculate the sum of squares  of 5 numbers 
 ;stored in a memory location.
 
- AREA PRG3, CODE, READONLY
+ AREA QUESTION3, CODE, READONLY
 START
         MOV R0, #1      ; First number
         MOV R1, #2      ; Second number
