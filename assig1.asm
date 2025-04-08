@@ -5,7 +5,7 @@
 ;AND r4, r0,r2 
 ;EOR r4, r4, r3
 
-  AREA PRG1,CODE,READONLY
+  AREA QUESTION1,CODE,READONLY
 START
      MOV R1, #0      ; Load 0 into R1  
      MOV R2, #15     ; Load 15 into R2  
