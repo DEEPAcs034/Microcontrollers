@@ -6,7 +6,7 @@
 ;LDR r7,[r1,#8] 
 ;ADD r2, r5,r6 
 ;SUB r2, r2, r7
-  AREA RESET, CODE, READONLY
+  AREA QUESTION8, CODE, READONLY
 START
 
         LDR r1, =0x40000000  ; Load base memory address into r1
