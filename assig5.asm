@@ -1,6 +1,6 @@
 ;Write an ARM assembly language program that swaps the values of two  numbers 
 ;without temporary register and swp instruction available in ARM.
- AREA PRG5, CODE, READONLY
+ AREA QUESTION5, CODE, READONLY
 START
         MOV r0, #5        ; Load first number (A = 5) into r0
         MOV r1, #10       ; Load second number (B = 10) into r1
