@@ -1,5 +1,5 @@
  ;Write an Assembly language program to check whether the given number is  prime or not.
- AREA PRG3, CODE, READONLY
+ AREA QUESTION4, CODE, READONLY
 START
         MOV R0, #2     ; r0 will be contain the input value
         MOV R1, #2       ; Start divisor
