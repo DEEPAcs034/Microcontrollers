@@ -1,6 +1,6 @@
 ;2)Write an ARM assembly language program to generate first 10 Fibonacci  numbers. 
 
-  AREA PRG2, CODE, READONLY  
+  AREA QUESTION2, CODE, READONLY  
 START  
       LDR R0,=0x40000000   ; Load base address (memory location) into R0  
       MOV R1,#0           ; Initialize first Fibonacci number (F0 = 0)  
