@@ -1,7 +1,7 @@
 ;6)Write an ARM assembly program that counts the number of 1 bits (set bits)  in a given 32-bit unsigned integer.
 ;The program should utilize barrel shifting  operations to efficiently count the set bits.
 
- AREA PRG6, CODE, READONLY  
+ AREA QUESTION6, CODE, READONLY  
 start  
     MOV R0, #0xF3    ; Load the number  
     MOV R1, #0       ; Set count to 0  
