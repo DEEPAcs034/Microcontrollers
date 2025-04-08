@@ -1,6 +1,6 @@
 ;Write an ALP to transfer a block of data from source to destination location  7 
 ;using LDM and STM instruction.
-  AREA QUESTION10, CODE, READONLY  ; Define a read-only code section named TRANSFER
+  AREA QUESTION10, CODE, READONLY  ; Define a read-only code section named QUESTION10
 START  
      LDR R9,=0x40000000  ; Load starting source address into R9
      LDR R11,=0x40000080  ; Load ending address (stop condition) into R11
